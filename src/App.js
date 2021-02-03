@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import AddTask from './Component/AddTask/AddTask';
+import ListTask from './Component/ListTask/ListTask';
+import Task from './Component/Task/Task';
 
 function App() {
   return (
+
+    
+    <div className="carte"> 
+          <h2 style={{marginBottom :"6%", color:"rgb(240, 17, 101)" , textAlign: "center"}} >What's the Plan for Today?</h2>
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+
+     <AddTask />
+      <ListTask />   
+
+      </div>
+
     </div>
   );
 }

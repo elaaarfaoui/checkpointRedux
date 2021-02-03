@@ -1,7 +1,17 @@
 .App {
   text-align: center;
+  /* background-image: rgb(47, 100, 245); */
+  width: 100%;
+  background-image:  url("img.jpg");
+
+
 }
 
+html {
+
+  /* background-image:  url("img.jpg"); */
+
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +46,27 @@
     transform: rotate(360deg);
   }
 }
+
+
+.check {
+
+  text-decoration: line-through;
+}
+
+
+.carte {
+
+background-color: #f0e9ec;
+width: 40%;
+height: 100%;
+margin-right: auto;
+margin-left: auto;
+margin-top:6%;
+}
+
+h2{
+color: white;
+
+}
+
+

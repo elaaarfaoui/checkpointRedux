@@ -1,0 +1,36 @@
+
+
+.colone { 
+    display:flex;
+     text-align:center;
+     margin-left: auto;
+     margin-right: auto;
+     border-style: ridge;
+     color: black;
+     background-color:white;
+     justify-content: space-between;
+     width: 90%;
+     margin-bottom: 4%;
+     border-radius: 4%;
+    }
+
+#textinput
+{
+width: auto;
+    margin-left: 4%;
+}
+
+
+.iconsvg
+{
+width: 20%;
+margin-left: 70%;
+cursor: pointer;
+align-items: center;
+position: absolute;
+right: 380px;
+width: 200px;
+height: 100px;
+
+
+}
